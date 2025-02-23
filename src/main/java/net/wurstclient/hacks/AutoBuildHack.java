@@ -246,7 +246,7 @@ public final class AutoBuildHack extends Hack
 			return;
 		}
 		
-		if(!fastPlace.isChecked() && MC.itemUseCooldown > 0)
+		if(!fastPlace.isChecked() && MC.itemUseCooldown > 2)
 			return;
 		
 		double rangeSq = range.getValueSq();
